@@ -15,3 +15,13 @@ swap(24,566)
  var b = 3;
  var c = 900;
 console.log(Math.max(a,b,c));
+
+//Implement capitalizeFirstLetter() function 
+function Capatalize(){
+    var charData = "gopi"
+    var resultString = charData.charAt(0).toUpperCase()  + charData.slice(1,charData.length);
+    console.log(resultString);
+}
+Capatalize();
+
+ // Reverse a string without using .reverse()
