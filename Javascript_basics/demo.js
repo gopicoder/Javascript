@@ -25,3 +25,11 @@ function Capatalize(){
 Capatalize();
 
  // Reverse a string without using .reverse()
+
+ var word = "rama";
+ var reversedWord ="";
+  i = word.length - 1;
+  for(i = word.length - 1;i>=0;i--){
+    reversedWord = reversedWord + word[i];
+  }
+console.log(reversedWord)
