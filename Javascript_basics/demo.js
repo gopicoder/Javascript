@@ -28,8 +28,25 @@ Capatalize();
 
  var word = "rama";
  var reversedWord ="";
-  i = word.length - 1;
   for(i = word.length - 1;i>=0;i--){
     reversedWord = reversedWord + word[i];
   }
 console.log(reversedWord)
+
+
+// Remove duplicates from an array 
+
+var simpleArray = [1,4,4,6,7,8,9,9,88];
+
+for(i=0;i<simpleArray.length;i++){
+    for(j=i+1;j<simpleArray.length;j++){
+        if(simpleArray[i] === simpleArray[j]){
+            console.log(simpleArray[i])
+        }
+    }
+}
+
+
+// Find the second largest number in an array"
+const number = [10,20,4,30,35]
+console.log(Math.max(...number))
